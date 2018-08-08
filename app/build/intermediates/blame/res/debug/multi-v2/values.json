@@ -151,17 +151,17 @@
                         "startLines": "3,23,13,30",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "57,870,540,1196",
-                        "endLines": "12,28,19,35",
+                        "endLines": "12,28,19,36",
                         "endColumns": "12,12,12,12",
-                        "endOffsets": "534,1188,858,1547"
+                        "endOffsets": "534,1188,858,1549"
                     },
                     "to": {
                         "startLines": "642,652,658,2183",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "53845,54318,54636,156502",
-                        "endLines": "651,657,664,2188",
+                        "endLines": "651,657,664,2189",
                         "endColumns": "12,12,12,12",
-                        "endOffsets": "54313,54631,54948,156848"
+                        "endOffsets": "54313,54631,54948,156849"
                     }
                 },
                 {

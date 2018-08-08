@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
@@ -16,18 +17,24 @@ public class Welcom extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcom);
 
+/*
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.colorPrimary));
+        }
+
+*/
 
       // if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
        //     Window w=getWindow();
 
         //   w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
        // }
+        setContentView(R.layout.activity_welcom);
         Typeface typeface=Typeface.createFromAsset(getAssets(),"fonts/IranNastaliq.ttf");
 
-       wellcom=(TextView)findViewById(R.id.wellcom);
-        wellcom.setTypeface(typeface);
+        wellcom=(TextView)findViewById(R.id.wellcom);
+         wellcom.setTypeface(typeface);
       // FullScreencall();
 
       Thread mySplash=new Thread(){

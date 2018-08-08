@@ -90,7 +90,7 @@ public class VamFragment extends Fragment {
                                 vamUtils.setUsername(jsonObject.getString("username"));
                                 vamUtils.setMvam(jsonObject.getInt("m_vam"));
                                 vamUtils.setTaghsat(jsonObject.getInt("t_aghsat"));
-                                vamUtils.setTpardakhtshoda(jsonObject.getInt("t_pardakhtshoda"));
+                                vamUtils.setTpardakhtshoda(jsonObject.getInt("t_aghsat")-jsonObject.getInt("t_pardakhtshoda"));
                                 maghsat=jsonObject.getInt("m_aghsat");
                                 mandavam=jsonObject.getInt("m_vam")-(maghsat*jsonObject.getInt("t_pardakhtshoda"));
                                 vamUtils.setMandavam(mandavam);

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:design:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\cf2f4af592b8845da4e7c4a51d376344\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:transition:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\f41dff1c1f18392d92d6ad585ebbc67b\AndroidManifest.xml:17:1-28:12
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\000431f121252bf2b2d508592cae5045\AndroidManifest.xml:2:1-13:12
@@ -19,20 +19,20 @@ MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Hamed\
 MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d48eb82a3c893821547ddc8242f850c8\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\f4d93eb56b8dee1f2bda15df714c53f1\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\3781c3d62af23d97975ebbbf71582774\AndroidManifest.xml:17:1-31:12
-INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml
 		INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml
-		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml
-		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:2:11-69
@@ -41,7 +41,7 @@ ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:7:5-29:19
+ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:7:5-30:19
 MERGED from [com.android.support:design:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\cf2f4af592b8845da4e7c4a51d376344\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\cf2f4af592b8845da4e7c4a51d376344\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:transition:25.4.0] C:\Users\Hamed\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\f41dff1c1f18392d92d6ad585ebbc67b\AndroidManifest.xml:22:5-26:19
@@ -79,7 +79,7 @@ MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Hamed\.gradle\c
 	android:roundIcon
 		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:10:9-36
 	android:allowBackup
 		ADDED from G:\Sandoogh Project\user\SandooghUser\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme

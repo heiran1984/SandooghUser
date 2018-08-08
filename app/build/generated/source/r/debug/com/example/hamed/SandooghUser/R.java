@@ -3070,15 +3070,16 @@ public final class R {
     public static final int transition_current_scene=0x7f0800ab;
     public static final int transition_scene_layoutid_cache=0x7f0800ac;
     public static final int up=0x7f0800ad;
-    public static final int useLogo=0x7f0800ae;
-    public static final int userId=0x7f0800af;
-    public static final int username=0x7f0800b0;
-    public static final int viewPager=0x7f0800b1;
-    public static final int view_offset_helper=0x7f0800b2;
-    public static final int visible=0x7f0800b3;
-    public static final int wellcom=0x7f0800b4;
-    public static final int withText=0x7f0800b5;
-    public static final int wrap_content=0x7f0800b6;
+    public static final int update=0x7f0800ae;
+    public static final int useLogo=0x7f0800af;
+    public static final int userId=0x7f0800b0;
+    public static final int username=0x7f0800b1;
+    public static final int viewPager=0x7f0800b2;
+    public static final int view_offset_helper=0x7f0800b3;
+    public static final int visible=0x7f0800b4;
+    public static final int wellcom=0x7f0800b5;
+    public static final int withText=0x7f0800b6;
+    public static final int wrap_content=0x7f0800b7;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -3167,8 +3168,11 @@ public final class R {
     public static final int menu_item=0x7f0b0000;
   }
   public static final class mipmap {
-    public static final int ic_launcher=0x7f0c0000;
-    public static final int ic_launcher_round=0x7f0c0001;
+    public static final int ibto=0x7f0c0000;
+    public static final int ic_launcher=0x7f0c0001;
+    public static final int ic_launcher_round=0x7f0c0002;
+    public static final int sandoogh=0x7f0c0003;
+    public static final int sandoogh1=0x7f0c0004;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0d0000;

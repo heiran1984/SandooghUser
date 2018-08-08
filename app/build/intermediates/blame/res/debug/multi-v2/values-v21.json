@@ -15,6 +15,25 @@
                     }
                 },
                 {
+                    "source": "G:\\Sandoogh Project\\user\\SandooghUser\\app\\src\\main\\res\\values-v21\\style.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "488"
+                    },
+                    "to": {
+                        "startLines": "290",
+                        "startColumns": "4",
+                        "startOffsets": "21165",
+                        "endLines": "297",
+                        "endColumns": "12",
+                        "endOffsets": "21587"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Hamed\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.4.0.aar\\cf2f4af592b8845da4e7c4a51d376344\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2",

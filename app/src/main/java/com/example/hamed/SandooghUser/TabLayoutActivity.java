@@ -1,19 +1,44 @@
 package com.example.hamed.SandooghUser;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Typeface;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class TabLayoutActivity extends MyActivity {
 
@@ -22,12 +47,18 @@ public class TabLayoutActivity extends MyActivity {
     TabLayout tabLayout;
     ViewPager viewPager;
     ViewPagerAdapter viewPagerAdapter;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_layout);
         //toolbar=(Toolbar)findViewById(R.id.toolBar);
        // setSupportActionBar(toolbar);
+
+
+
 
         tabLayout=(TabLayout) findViewById(R.id.tabLayout);
         viewPager=(ViewPager)findViewById(R.id.viewPager);
@@ -37,7 +68,6 @@ public class TabLayoutActivity extends MyActivity {
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
         changeTabsFont();
-        //ActionBar actionBar=getSupportActionBar();
 
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.actionbar_text);
@@ -53,6 +83,9 @@ public class TabLayoutActivity extends MyActivity {
 
         actionBar.setCustomView(v);
         */
+
+        //getMojodi();
+        //new DownloadNewVersion().execute();
 
 
     }
@@ -95,4 +128,6 @@ public class TabLayoutActivity extends MyActivity {
         return true;
 
     }
+
+
 }
