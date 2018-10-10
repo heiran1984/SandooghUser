@@ -2,6 +2,8 @@ package com.example.hamed.SandooghUser;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -72,7 +74,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                 SharedPrefManager.getInstance(getApplicationContext())
                                         .userLogin(
                                                 obj.getInt("id"),
-                                                obj.getString("username")
+                                                obj.getString("username"),
+                                                password
 
                                         );
                                 startActivity(new Intent(getApplicationContext(),TabLayoutActivity.class));
@@ -114,8 +117,21 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        if(v==buttonLogin){
+        if(checkNetworkConnection(this)) {
             userLogin();
         }
+        else {
+            Toast.makeText(this, "اتصال به اینترنت برقرار نیست!", Toast.LENGTH_LONG).show();
+
+        }
+
     }
+
+    public boolean checkNetworkConnection(Context context){
+        ConnectivityManager connectivityManager=(ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo=connectivityManager.getActiveNetworkInfo();
+        return (networkInfo!=null && networkInfo.isConnected());
+
+    }
+
 }

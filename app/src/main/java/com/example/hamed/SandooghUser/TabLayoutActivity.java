@@ -124,6 +124,11 @@ public class TabLayoutActivity extends MyActivity {
                 startActivity(new Intent(this,LoginActivity.class));
                 finish();
                 break;
+
+            case R.id.ChangePass:
+                intent=new Intent(this,ChangPassActivity.class);
+                startActivity(intent);
+                break;
         }
         return true;
 

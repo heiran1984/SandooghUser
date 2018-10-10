@@ -3,6 +3,7 @@
     package="com.example.hamed.SandooghUser">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".MyApp"
@@ -17,6 +18,7 @@
             android:theme="@style/splashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -26,6 +28,7 @@
             android:name=".TabLayoutActivity"
             android:theme="@style/AppTheme2">
         </activity>
+        <activity android:name=".ChangPassActivity"></activity>
 
     </application>
 

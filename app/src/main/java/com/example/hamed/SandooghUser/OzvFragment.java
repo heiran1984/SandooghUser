@@ -144,7 +144,7 @@ public class OzvFragment extends Fragment implements View.OnClickListener{
                             }
                             personUtilsList.add(personUtils);
                         }
-                        mojodi.setText(String.valueOf("موجودی="+formatter.format(mojodi1)));
+                        mojodi.setText(String.valueOf("موجودی="+formatter.format(mojodi1)+"ریال"));
                         mAdapter.notifyDataSetChanged();
                         // recyclerView.scrollToPosition(0);
                     }
@@ -347,7 +347,8 @@ public class OzvFragment extends Fragment implements View.OnClickListener{
         if(outputFile.exists()){
            return true;
         }
-        else return false;
+        else
+            return false;
 
     }
 
